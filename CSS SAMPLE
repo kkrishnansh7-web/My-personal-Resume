@@ -1,0 +1,60 @@
+/* Importing a modern font */
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar (Flexbox & Positioning) */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1a2a6c;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+/* Main Container (Alignment & Spacing) */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Section Headers */
+h1, h2 {
+    color: #1a2a6c;
+}
+
+/* Experience Card */
+.card {
+    border-left: 5px solid #b21f1f;
+    padding: 10px 20px;
+    background: #fffafa;
+    margin-top: 15px;
+}
+
+/* Skill Tags (Inline-block) */
+.skill-tag {
+    display: inline-block;
+    background: #fdbb2d;
+    color: #1a2a6c;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-weight: bold;
+}
